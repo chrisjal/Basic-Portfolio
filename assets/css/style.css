@@ -93,7 +93,7 @@ h1, h3 {
 }
 
 
-#aboutBox {
+#aboutBox, #contactBox, #portfolioBox {
 	width: 630px;
 	padding: 20px 20px 20px 20px;
 	background: #ffffff;
@@ -103,6 +103,14 @@ h1, h3 {
 	box-sizing: border-box;
 	text-align: left;
 	float: left;
+}
+
+#contactBox {
+
+}
+
+#portfolioBox {
+
 }
 
 #bio-image {
