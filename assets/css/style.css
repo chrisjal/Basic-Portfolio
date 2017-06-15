@@ -69,12 +69,17 @@ a {
 }
 
 h1, h3 {
-	color: #4aaaa5
+	color: #4aaaa5;
+}
+
+h4 {
+	color: #ffffff;
+	text-align: center;
 }
 
 .main-container {
 	margin: 0;
-	height: 1000px;
+	height: 1200px;
 }
 
 /* fix this to wrap all */
@@ -105,17 +110,74 @@ h1, h3 {
 	float: left;
 }
 
-#contactBox {
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 30px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background-color: #ccc;
+}
+
+#conMessage {
+	width: 100%;
+	height: 200px;
+	padding: 12px 20px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+#portfolioBoxContainer {
 
 }
 
-#portfolioBox {
-
+.listPortfolio {
+	width: 580px;
+	z-index: 2;
+	text-align: center;
 }
+
+.listPortfolio img {
+	width: 250px;
+	z-index: 1;
+	padding: 25px 10px;
+	display: inline-block;
+}
+
+.listPortfolio h4 {
+	position: absolute;
+	padding: 10px 10px 10px 0px;
+	background: #4aaaa5;
+	margin-left: 10px;
+	width: 240px;
+	z-index: 2;
+	margin-top: 215px;
+	display: inline;
+	word-wrap: inherit;
+}
+
+/*#rps, #rpsimg {
+	left: 25px;
+}*/
 
 #bio-image {
 	margin-right: 20px;
-	width: 200px;
+	width: 175px;
 	float: left;
 	text-align: center;
 	padding-top: 10px;
